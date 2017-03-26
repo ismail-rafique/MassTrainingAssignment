@@ -1,0 +1,251 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#container {
+    width: 90%;
+    margin: -15px auto 20px auto;
+
+}
+
+div#container > div {
+    background-color: #fece46;
+    
+}
+
+div#container div+div {
+    padding-bottom: 10px;
+    margin-bottom: 1px;
+}
+
+
+div#navigation {
+    background-color: #000000 !important;
+    /*padding: 30px 0;*/
+
+}
+
+div#navigation ul {
+    width: 60%;
+    margin: 0px;
+    padding: 15px 0;
+    margin-left: 40%;
+
+}
+
+div#navigation ul li {
+    position: absolute;
+    display: inline-block;
+    /*background-color: #000000;*/
+    color: #fece46;
+    padding: 20px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+div#navigation ul li ul.innerlist {
+    margin-left: -20px;
+    visibility: hidden;
+}
+
+div#navigation ul li ul.innerlist li{
+    display: block;
+    position: static;
+    padding: 10px;
+    font-family: Verdana;
+    font-size: 17px;
+    font-weight: normal;
+    background: #000000;
+    color: #fece46;
+    z-index: 5;
+    width: 100px;
+}
+
+div#navigation ul li+li {
+    left: 49%;
+}
+
+div#navigation ul li+li+li {
+    left: 63.5%
+}
+
+div#navigation ul li+li+li+li {
+    left: 72%
+}
+
+div#navigation ul li+li+li+li+li {
+    left: 84%
+}
+
+div#navigation ul li+li {
+    margin-left: 15px;
+}
+
+div#navigation ul li a {
+    color: #fece46;
+    text-decoration: none;
+}    
+    
+div#navigation ul li a:hover {
+    font-size: 1.2em;
+    text-decoration: underline;
+
+}
+
+div#navigation ul > li:hover > ul.innerlist {
+    visibility: visible;
+}
+
+div#profile {
+    width: 100%;
+    height: 340px;
+    background-image: url("images/background.jpg");
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    
+}
+
+div#profile img {
+    width: 250px;
+    float: right;
+    margin: 15px;
+    border: 1px solid #fece46;
+}
+
+div#profile h1 {
+    float: left;
+    position: absolute;
+    width: 75%;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 20px;
+    color: #fece46;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+div#profile div.about {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.3em;
+    padding-top: 140px;
+    color: #fece46;
+    text-shadow: 1px 1px #000000;
+    text-align: justify;
+    font-style: italic;
+}
+
+div#profile div.about h3 {
+    margin-bottom: 5px;
+}
+
+div#profile div.about p {
+    margin-top: 5px;
+}
+
+div h2 {
+    background-image: url("images/h-background.png");
+    background-repeat: repeat-y;
+    padding: 15px 10px;
+    color: #fece46;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+}
+
+
+div#qualification ul li ul > li {
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    border: 1px solid #fece46;
+    padding: 5px;
+    margin: 5px 5px 5px 8px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+div ul span {
+    display: block;
+    background-image: url("images/subh-background.png");
+    background-repeat: repeat-y;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    list-style: none;
+    margin: -10px 0px 5px -25px; 
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+div > ul > li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    list-style-type: square;
+    padding: 10px;
+}
+div ul li ul > li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #fece46;
+    padding: 3px;
+}
+
+div ul li ul {
+    background-color: #000000;
+    padding: 10px 10px 10px 25px;
+    margin: 10px 40px 10px 10px;
+}   
+
+div#contact form {
+    margin: 20px auto 20px 50px;
+}
+
+div#contact form input[type=text], div#contact form input[type=email], div#contact form textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    width: 40%;
+    margin-bottom: 10px;
+    background-color: #fece46;
+    border: 2px solid #000000;
+    padding: 10px;
+
+}
+
+div#contact form input[type=submit] {
+    background-color: #000000;
+    color: #fece46;
+    font-size: 1.2em;
+    width: 208px;
+    padding: 10px;
+    margin-left: 23%;
+    border: none;
+
+}
+
+div#contact ul {
+    float: right;
+    margin: -490px 50px auto auto;
+}
+
+div#contact ul li {
+    list-style-type: none;
+    
+}
+
+div#contact ul li a {
+    text-decoration: none;
+}
+
+div#contact ul li.phone {
+    list-style-image: url("images/phone.png");
+}
+
+div#contact ul li.email {
+    list-style-image: url("images/email.png");
+    
+}
